@@ -1,0 +1,29 @@
+{
+  "name": "solana-crash-game",
+  "version": "0.1.0",
+  "description": "Solana crash casino game with on-chain provable fairness and LP staking",
+  "private": true,
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy": "anchor deploy",
+    "frontend:install": "cd frontend && yarn install",
+    "frontend:start": "cd frontend && yarn start",
+    "frontend:build": "cd frontend && yarn build",
+    "backend:install": "cd backend && yarn install",
+    "backend:start": "cd backend && yarn start",
+    "backend:dev": "cd backend && yarn dev",
+    "install:all": "yarn install && yarn frontend:install && yarn backend:install"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "casino",
+    "crash-game",
+    "blockchain",
+    "defi",
+    "staking"
+  ],
+  "author": "",
+  "license": "MIT"
+}
